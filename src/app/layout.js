@@ -1,5 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { LocationIcon } from "./components/Icons";
+import Hero from "./components/Hero";
+import Footer from "./Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +14,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`w-screen ${inter.className}`}>
+        <div className="w-full flex items-center justify-between p-2 px-8 bg-[#c96725] text-white text-sm">
+          <h3 className=" ">Delivery Area</h3>
+          <div className="flex items-center justify-center gap-2">
+            <LocationIcon className={"!w-4"} /> Lagos
+          </div>
+        </div>
+        <div className="w-full">
+          <Hero />
+        </div>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
