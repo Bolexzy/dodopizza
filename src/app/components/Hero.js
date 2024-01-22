@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useRef } from "react";
 import { useReward } from "react-rewards";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   const { reward, isAnimating } = useReward("rewardId", "emoji", {
@@ -44,7 +45,15 @@ const Hero = () => {
           delivered to you in no time. Affordable, tasty and fast!
         </p>
       </div>
-      <div className=" absolute right-0 md:right-[5%]  overflow-hidden w-[250px] sm:w-[300px] md:w-[350px]">
+      <motion.div
+        className=" absolute right-0 md:right-[5%]  overflow-hidden w-[250px] sm:w-[300px] md:w-[350px]"
+        initial={{ translateX: 200 }}
+        whileInView={{ translateX: 0 }}
+        transition={{
+          duration: 1,
+          ease: "easeInOut",
+        }}
+      >
         <span id="rewardId" style={{ width: 2, height: 2 }} />
         <Image
           src={"/images/herobg2-removebg-preview.png"}
@@ -54,7 +63,7 @@ const Hero = () => {
           className="w-full h-auto animate-spin-slow ml-5 cursor-pointer"
           onClick={handleClick}
         />
-      </div>
+      </motion.div>
     </div>
   );
 };

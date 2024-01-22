@@ -16,14 +16,14 @@ const Footer = () => {
           <p>
             DODO Pizza
             <br />
-            Fast pizza delivery
+            Fastest pizza delivery
           </p>
           <hr className="mt-16"></hr>
           <p className="text-slate-500 text-xs mt-2 mb-16">DODO Pizza © 2024</p>
         </aside>
         <nav>
-          <header className="footer-title text-xl font-medium">Social</header>
-          <div className="grid grid-flow-col gap-4">
+          <header className="footer-title lg:text-xl font-medium mb-2">Social</header>
+          <div className="grid grid-flow-col gap-4 my-4">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,11 +58,11 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          <header className="footer-title text-xl font-medium mt-4">
+          <header className="footer-title lg:text-xl font-medium mt-4">
             +234700DODOPIZZA
           </header>
           <div className="text-xs text-slate-500 text-end">Call</div>
-          <header className="footer-title text-xl font-medium mt-4">
+          <header className="footer-title lg:text-xl font-medium mt-4">
             We Accept
           </header>
           <div className="flex gap-2">

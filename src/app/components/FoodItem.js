@@ -16,9 +16,9 @@ const FoodItem = ({ title, summary, price, image }) => {
       <div className="self-start flex items-center justify-between w-full">
         <h3 className="text-lg font-medium">from ₦ {price}</h3>
         <motion.button
-          className="py-2 px-5 bg-[#F663003B] rounded-3xl text-lg flex items-center justify-center gap-2 group active:bg-[#00c3a1] text-gray-700"
-          whileHover={{ padding: "8px 15px" }}
-          whileTap={{ padding: "8px 18px" }}
+          className="py-1 px-5 bg-[#F663003B] rounded-3xl text-lg flex items-center justify-center gap-2 group active:bg-[#00c3a1] text-gray-700"
+          whileHover={{ padding: "4px 15px" }}
+          whileTap={{ padding: "4px 18px" }}
           //   transition={{ type: "spring", stiffness: 400, damping: 17 }}
         >
           Select

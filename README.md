@@ -1,24 +1,36 @@
 # Dodo Pizza
 
-This project is a redesign of the Dodo Pizza [website](https://dodopizza.ng/lagos/gbagada), built using [Next.js](https://nextjs.org/), a powerful React framework that provides features like server-side rendering and static site generation. It's bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project is a redesign and clone of the Dodo Pizza website, inspired by a design found online. It's built using [Next.js](https://nextjs.org/), a powerful React framework that provides features like server-side rendering and static site generation.[website](https://dodopizza.ng/lagos/gbagada).
+
+## Features
+
+- **Next.js**: For building a highly scalable and performant server-side rendered React application.
+- **React 18**: The latest version of React is used for building the user interface.
+- **Framer Motion**: A production-ready motion library for React used to create smooth animations.
+- **React Rewards**: A fun, interactive library used to reward user interactions with animations.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
+
 
 ## Getting Started
 
-First, run the development server:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/dodo-pizza-redesign.git
+   cd dodo-pizza-redesign
+   npm install
+   npm run dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
@@ -26,11 +38,18 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## Features
+## Contributing
 
-- Next.js for powerful, server-side rendered React applications
-- Custom Google Font (Inter) optimized with `next/font`
-- Interactive animations with `react-rewards`
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+## License
+
+Distributed under the MIT License. See LICENSE for more information.
+
+## Contact
+
+Boluwatife Emmanuel - boluwatifemanuel@gmail.com
+
 
 
 ## Learn More

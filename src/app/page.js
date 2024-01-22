@@ -13,7 +13,7 @@ export default function Home() {
         <StoryCard image={"/images/story3.png"} />
         <StoryCard image={"/images/story4.png"} />
       </div>
-      <div className="h-[300px] w-screen xl:w-full sm:h-[400px] lg:my-8">
+      <div className="h-[300px] w-full sm:h-[400px] my-4 lg:my-8">
         <iframe
           className="w-full h-full"
           width="400"
